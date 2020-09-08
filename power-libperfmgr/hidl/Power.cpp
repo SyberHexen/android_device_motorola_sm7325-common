@@ -15,7 +15,7 @@
  */
 
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
-#define LOG_TAG "android.hardware.power@1.3-service.yupik-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.sm7325-libperfmgr"
 
 #include <android-base/file.h>
 #include <android-base/logging.h>
