@@ -28,7 +28,7 @@
 #
 #
 import /vendor/etc/init/hw/init.mmi.rc
-
+import /vendor/etc/init/hw/init.qcom.power.rc
 import /vendor/etc/init/hw/init.qti.kernel.rc
 
 on early-init
@@ -94,6 +94,8 @@ on late-fs
     wait_for_prop hwservicemanager.ready true
     #exec_start wait_for_keymaster
     mount_all --late
+    # Boot time fs tune
+    write /sys/block/dm-9/queue/read_ahead_kb 2048
 
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
