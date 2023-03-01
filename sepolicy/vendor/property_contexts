@@ -19,3 +19,10 @@ vendor.nfc.fw_status       u:object_r:vendor_mot_nfc_prop:s0
 persist.vendor.hardware.fingerprint            u:object_r:vendor_mot_fingerprint_prop:s0
 vendor.hw.fps.ident                            u:object_r:vendor_mot_fingerprint_prop:s0
 vendor.hw.fingerprint.status                   u:object_r:vendor_mot_fingerprint_prop:s0
+
+# Power
+vendor.powerhal.state      u:object_r:vendor_power_prop:s0
+vendor.powerhal.audio      u:object_r:vendor_power_prop:s0
+vendor.powerhal.lpm        u:object_r:vendor_power_prop:s0
+vendor.powerhal.init       u:object_r:vendor_power_prop:s0
+vendor.powerhal.rendering  u:object_r:vendor_power_prop:s0
