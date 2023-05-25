@@ -907,13 +907,11 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
 # Ril - IMS (APK)
-system/etc/permissions/moto-ims-ext.xml:system_ext/etc/permissions/moto-ims-ext.xml
 system/etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-telephony.xml
-system/framework/moto-ims-ext.jar:system_ext/framework/moto-ims-ext.jar
 system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 
 # Radio - IMS (APK) - from patched source
--system_ext/priv-app/ims/ims.apk|18a13be023c84e33323b49401fdd7be116dd7461
+-system_ext/priv-app/ims/ims.apk|70170fff2df066315e4bce09ecd203d3e28cfec4
 
 # RIL - IMS
 -system_ext/app/ImsRcsService/ImsRcsService.apk
