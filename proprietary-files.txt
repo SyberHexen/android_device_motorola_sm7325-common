@@ -913,24 +913,6 @@ system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 # Radio - IMS (APK) - from patched source
 -system_ext/priv-app/ims/ims.apk|70170fff2df066315e4bce09ecd203d3e28cfec4
 
-# Carrier Apps
-product/priv-app/DMService/DMService.apk
-product/priv-app/OMAProvisioning/OMAProvisioning.apk
-product/priv-app/VzwDM/VzwDM.apk
-product/etc/enable-disable-packages/enable-disable-com.motorola.omadm.vzw.xml
-product/etc/motorola/bgintents/com.motorola.omadm.service.bgintents.xml
-product/etc/motorola/bgintents/com.motorola.omadm.vzw.bgintents.xml
-product/etc/permissions/com.motorola.omadm.service.xml
-product/etc/permissions/privapp-permissions-com.motorola.omadm.service.xml
-product/etc/permissions/privapp-permissions-com.motorola.omadm.vzw.xml
-product/etc/sysconfig/whitelist_com.motorola.omadm.service.xml
-product/etc/sysconfig/whitelist_com.motorola.omadm.vzw.xml
-product/lib64/libdmengine.so
-product/lib64/libdmjavaplugin.so
-system_ext/priv-app/HiddenMenu/HiddenMenu.apk
-system_ext/etc/permissions/com.motorola.software.sprint.hidden_menu.xml
-system_ext/etc/permissions/privapp-permissions-com.motorola.hiddenmenuapp.xml
-
 # RIL - IMS
 -system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml

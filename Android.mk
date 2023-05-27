@@ -136,14 +136,4 @@ $(EXPAT_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(EXPAT_SYMLINKS)
 
-DM_LIBS := libdmengine.so libdmjavaplugin.so
-DM_SYMLINKS := $(addprefix $(TARGET_OUT_PRODUCT_APPS_PRIVILEGED)/DMService/lib/arm64/,$(notdir $(DM_LIBS)))
-$(DM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "DMService lib link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /product/lib64/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(DM_SYMLINKS)
-
 endif
