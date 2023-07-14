@@ -18,6 +18,8 @@ BOARD_VENDOR := motorola
 
 COMMON_PATH := device/motorola/sm7325-common
 
+WITH_GMS := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
