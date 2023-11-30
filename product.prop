@@ -1,3 +1,7 @@
 # Audio
 audio.record.delay=50
 
+# RCS
+persist.vendor.rcs.singlereg.feature=1
+persist.vendor.rcs.presence.provision=0
+persist.vendor.radio.force_gba_over_isim_app=1
