@@ -43,10 +43,13 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     WifiResTarget
 
-# A/B
+# Virtual A/B
 ifeq ($(TARGET_IS_VAB),true)
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+else
+# Inherit Retrofit virtual_ab_ota product
+$(call inherit-product, $(LOCAL_PATH)/retrofit_vab_ota.mk)
 endif
 
 AB_OTA_POSTINSTALL_CONFIG += \
